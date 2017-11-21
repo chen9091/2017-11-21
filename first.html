@@ -1,0 +1,975 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=no">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge，chrome=1">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/topbot.css"/>
+		<link rel="stylesheet" type="text/css" href="css/swiper-3.4.2.min.css"/>
+<!--		<link rel="stylesheet" type="text/css" href="css/idangerous.swiper2.7.6.css"/>-->
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="css/swiper-3.4.2.jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/html5.js" type="text/javascript" charset="utf-8"></script>
+<!--		<script src="css/idangerous.swiper2.7.6.js" type="text/javascript" charset="utf-8"></script>-->
+	</head>
+	<body>
+		<div class="top">
+			<div class="w1200">
+				<div class="toplf">
+					<span class="wt-block lf">您好，山西伟拓电子招标投标综合交易信息网欢迎您！</span>
+					<ul class="levlist toplf-list lf">
+						<li><a href="###" class="line-bg"><i class="wticon top-cjwt"></i>常见问题</li>
+						<li><a href="###" class="line-bg"><i class="wticon top-zxqq"></i>在线QQ</a></li>
+						<li><a href="###"><i class="wticon top-kfdh"></i>400-869-0366</a></li>
+					</ul>
+				</div>
+				<div class="toprt rt">
+					<ul class="levlist toplogin-list">
+						<li><a href="###">立即登录</a></li>
+						<li><a href="###">免费注册</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<header>
+			<div class="w1200">
+				<h1 class="lf">
+					山西伟拓电子招标投标综合交易信息网
+				</h1>
+				<div class="search-con lf">
+					<div class="search-bor">
+						<div class="search-cap">
+							<div class="lf cap" id="search-tit"><span>招标信息</span><i class="wticon arrow-down"></i></div>
+							<input type="text" placeholder="请输入关键词" class="search-inp lf">
+							<button type="button" class="search-btn" title="查询"></button>
+							<ul class="selsearch-list wt-none" id="search-tabtit">
+								<li><a>招标信息</a></li>
+								<li><a>采购信息</a></li>
+								<li><a>行业信息</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="weixin-con rt">
+					<div class="weixin-bor">
+						<img src="images/first/infosec01_51.png" title="扫描关注山西伟拓电子招标投标综合交易信息网">
+						<p>关注山西伟拓</p>
+					</div>
+				</div>
+			</div>
+		</header>
+		<nav>
+			<div class="w1200">
+				<ul class="nav-list" id="nav-menulist">
+					<li class="current"><a>网站首页</a></li>
+					<li><a>招标信息</a></li>
+					<li><a>采购信息</a></li>
+					<li><a>行业资讯</a></li>
+					<li><a>工具下载</a></li>
+					<li><a>帮助专区</a></li>
+					<li><a>会员服务</a></li>
+					<li><a>云数据中心</a></li>
+				</ul>
+			</div>	
+		</nav>
+		<div class="banner"><!--
+			<div class="arrow-left"></div>
+			<div class="arrow-right"></div>-->
+			<div id="bannerpagination" class="pagination"></div>
+			<div class="banner-section">
+				<div class="swiper-container" id="bannner-swiper">
+				    <div class="swiper-wrapper">
+				        <div class="swiper-slide">
+				        	<img src="images/first/banner_02.png"/>
+				        </div>
+				        <div class="swiper-slide">
+				        	<img src="images/first/banner_02.png"/>
+				        </div>
+				        <div class="swiper-slide">
+				        	<img src="images/first/banner_02.png"/>
+				        </div>
+				    </div>
+				    <!-- 如果需要分页器 -->
+				    <div class="swiper-pagination"></div>
+				  <!--  <div class="pagination"></div>-->
+				    <div class="swiper-button-prev"></div>
+    				<div class="swiper-button-next"></div>
+				    <!-- 如果需要导航按钮 -->
+				</div>
+			</div>
+			<div class="shortcut-section">
+				<div class="shortcut-slide">
+					<div class="shortcut-con">
+						<ul class="shortcut-list">
+							<li class="bg-line"><a><i class="wticon shcut-icon1"></i>登录入口<i class="wticon dubarrow-right"></i></a></li>
+							<li class="bg-line"><a><i class="wticon shcut-icon2"></i>注册入口<i class="wticon dubarrow-right"></i></a></li>
+							<li class="bg-line"><a><i class="wticon shcut-icon3"></i>最新公告<i class="wticon dubarrow-right"></i></a></li>
+							<li><a><i class="wticon shcut-icon4"></i>操作流程<i class="wticon dubarrow-right"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="platnotice-con">
+			<div class="w1200">
+				<div class="platnot-sec">
+					<p class="lf firp"><i class="wticon platnot-icon"></i>重要通知</p>
+					<p class="lf secp">平台维护平台维护平台维护平台维护平台维护平台维护平台维护平台维护平台维护平台维护平台维护平台维护</p>
+					<span class="rt thirp"><a>查看更多></a></span>
+				</div>
+			</div>
+		</div>
+		<div class="sec">
+			<div class="w1200">
+				<section>
+					<ul class="levlist firsec-list">
+						<li>
+							<img src="images/first/tit_03.png">
+							<div>
+								<span>进行的项目</span>
+								<p><em>20015</em>个</p>
+							</div>
+						</li>
+						<li>
+							<img src="images/first/tit_05.png">
+							<div>
+								<span>完成的交易金额</span>
+								<p><em>20015</em>个</p>
+							</div>
+						</li>
+						<li>
+							<img src="images/first/tit_07.png">
+							<div>
+								<span>已加入的投标企业</span>
+								<p><em>200154</em>个</p>
+							</div>
+						</li>
+						<li class="last">
+							<img src="images/first/tit_09.png">
+							<div>
+								<span>最新更新的公告</span>
+								<p><em>20015</em>个</p>
+							</div>
+						</li>
+					</ul>
+				</section>
+			</div>
+		</div>
+		<div class="clearfix"></div>
+		<div class="sec">
+			<div class="w1200">
+				<div class="zbiftit-sec">
+					<h2 class="secbigtit lf"><i class="wticon zbif-icon"></i>招标信息</h2>
+					<ul class="levlist lf zbxx-titlist">
+						<li>
+							<a href="">工程</a>
+							<i class="borline"></i>
+						</li>
+						<li>
+							<a href="">货物</a>
+							<i class="borline"></i>
+						</li>
+						<li>
+							<a href="">服务</a>
+							<i class="borline"></i>
+						</li>
+						<li>
+							<a href="">国际</a>
+						</li>
+					</ul>
+					<p class="rt">今日更新信息<em class="numcolor-red">101</em>条</p>
+				</div>
+				<div class="zbifmain-sec">
+					<div class="infocon-sec lf">
+						<ul class="lf levlist zbifnot-titlist" id="zbxx-tabList">
+							<li class="current"><a>招标公告</a><i class="botline-bg"></i></li>
+							<li><a>更正公告</a><i class="botline-bg"></i></li>
+							<li><a>评标公告</a><i class="botline-bg"></i></li>
+							<li><a>中标公告</a><i class="botline-bg"></i></li>
+							<span class="rt more-con"><a>更多<i class="wticon moredubline-icon"></i></a></span>
+						</ul>
+						<div class="zbinfo-neirlist" id="zbxx-neiRList">
+							<section>
+								<ul class="lf levlist zbprot-lsit">
+									<li class="firl">丹山绿色石化基地石化大道工程</li>
+									<li class="secl">距离开标还剩<em class="numcolor-red">15</em>天</li>
+									<li class="thirl">北京市</li>
+									<li class="forl"><a class="numcolor-red">我要投标</a></li>
+								</ul>
+								<ul class="lf levlist zbprot-lsit">
+									<li class="firl">丹山绿色石化基地石化大道工程</li>
+									<li class="secl">距离开标还剩<em class="numcolor-red">15</em>天</li>
+									<li class="thirl">北京市</li>
+									<li class="forl"><a class="numcolor-red">我要投标</a></li>
+								</ul>
+								<ul class="lf levlist zbprot-lsit">
+									<li class="firl">丹山绿色石化基地石化大道工程</li>
+									<li class="secl">距离开标还剩<em class="numcolor-red">15</em>天</li>
+									<li class="thirl">北京市</li>
+									<li class="forl"><a class="numcolor-red">我要投标</a></li>
+								</ul>
+								<ul class="lf levlist zbprot-lsit">
+									<li class="firl">丹山绿色石化基地石化大道工程</li>
+									<li class="secl">距离开标还剩<em class="numcolor-red">15</em>天</li>
+									<li class="thirl">北京市</li>
+									<li class="forl"><a class="numcolor-red">我要投标</a></li>
+								</ul>
+								<ul class="lf levlist zbprot-lsit">
+									<li class="firl">丹山绿色石化基地石化大道工程</li>
+									<li class="secl">距离开标还剩<em class="numcolor-red">15</em>天</li>
+									<li class="thirl">北京市</li>
+									<li class="forl"><a class="numcolor-red">我要投标</a></li>
+								</ul>
+								<ul class="lf levlist zbprot-lsit">
+									<li class="firl">丹山绿色石化基地石化大道工程</li>
+									<li class="secl">距离开标还剩<em class="numcolor-red">15</em>天</li>
+									<li class="thirl">北京市</li>
+									<li class="forl"><a class="numcolor-red">我要投标</a></li>
+								</ul>
+								<ul class="lf levlist zbprot-lsit">
+									<li class="firl">丹山绿色石化基地石化大道工程</li>
+									<li class="secl">距离开标还剩<em class="numcolor-red">15</em>天</li>
+									<li class="thirl">北京市</li>
+									<li class="forl"><a class="numcolor-red">我要投标</a></li>
+								</ul>
+								<ul class="lf levlist zbprot-lsit">
+									<li class="firl">丹山绿色石化基地石化大道工程</li>
+									<li class="secl">距离开标还剩<em class="numcolor-red">15</em>天</li>
+									<li class="thirl">北京市</li>
+									<li class="forl"><a class="numcolor-red">我要投标</a></li>
+								</ul>
+								<ul class="lf levlist zbprot-lsit">
+									<li class="firl">丹山绿色石化基地石化大道工程</li>
+									<li class="secl">距离开标还剩<em class="numcolor-red">15</em>天</li>
+									<li class="thirl">北京市</li>
+									<li class="forl"><a class="numcolor-red">我要投标</a></li>
+								</ul>
+								<ul class="lf levlist zbprot-lsit">
+									<li class="firl">丹山绿色石化基地石化大道工程</li>
+									<li class="secl">距离开标还剩<em class="numcolor-red">15</em>天</li>
+									<li class="thirl">北京市</li>
+									<li class="forl"><a class="numcolor-red">我要投标</a></li>
+								</ul>
+								<ul class="lf levlist zbprot-lsit">
+									<li class="firl">丹山绿色石化基地石化大道工程</li>
+									<li class="secl">距离开标还剩<em class="numcolor-red">15</em>天</li>
+									<li class="thirl">北京市</li>
+									<li class="forl"><a class="numcolor-red">我要投标</a></li>
+								</ul>
+								<ul class="lf levlist zbprot-lsit">
+									<li class="firl">丹山绿色石化基地石化大道工程</li>
+									<li class="secl">距离开标还剩<em class="numcolor-red">15</em>天</li>
+									<li class="thirl">北京市</li>
+									<li class="forl"><a class="numcolor-red">我要投标</a></li>
+								</ul>
+								<ul class="lf levlist zbprot-lsit">
+									<li class="firl">丹山绿色石化基地石化大道工程</li>
+									<li class="secl">距离开标还剩<em class="numcolor-red">15</em>天</li>
+									<li class="thirl">北京市</li>
+									<li class="forl"><a class="numcolor-red">我要投标</a></li>
+								</ul>
+							</section>
+							<section class="wt-none">
+								<ul class="lf levlist zbprot-lsit">
+									<li class="firl">丹山绿色石化基地石化大道工程</li>
+									<li class="secl">距离开标还剩<em class="numcolor-red">15</em>天</li>
+									<li class="thirl">北京市</li>
+									<li class="forl"><a class="numcolor-red">我要投标</a></li>
+								</ul>
+							</section>
+							<section class="wt-none">
+								<ul class="lf levlist zbprot-lsit">
+									<li class="firl">丹山绿色石化基地石化大道工程</li>
+									<li class="secl">距离开标还剩<em class="numcolor-red">15</em>天</li>
+									<li class="thirl">北京市</li>
+									<li class="forl"><a class="numcolor-red">我要投标</a></li>
+								</ul>
+								<ul class="lf levlist zbprot-lsit">
+									<li class="firl">丹山绿色石化基地石化大道工程</li>
+									<li class="secl">距离开标还剩<em class="numcolor-red">15</em>天</li>
+									<li class="thirl">北京市</li>
+									<li class="forl"><a class="numcolor-red">我要投标</a></li>
+								</ul>
+							</section>
+							<section class="wt-none">
+								<ul class="lf levlist zbprot-lsit">
+									<li class="firl">丹山绿色石化基地石化大道工程</li>
+									<li class="secl">距离开标还剩<em class="numcolor-red">15</em>天</li>
+									<li class="thirl">北京市</li>
+									<li class="forl"><a class="numcolor-red">我要投标</a></li>
+								</ul>
+								<ul class="lf levlist zbprot-lsit">
+									<li class="firl">丹山绿色石化基地石化大道工程</li>
+									<li class="secl">距离开标还剩<em class="numcolor-red">15</em>天</li>
+									<li class="thirl">北京市</li>
+									<li class="forl"><a class="numcolor-red">我要投标</a></li>
+								</ul>
+								<ul class="lf levlist zbprot-lsit">
+									<li class="firl">丹山绿色石化基地石化大道工程</li>
+									<li class="secl">距离开标还剩<em class="numcolor-red">15</em>天</li>
+									<li class="thirl">北京市</li>
+									<li class="forl"><a class="numcolor-red">我要投标</a></li>
+								</ul>
+							</section>
+						</div>
+					</div>
+					<div class="infoside-sec rt">
+						<section>
+							<ul class="statuslog-list">
+								<li><a><i class="wticon zclog-icon"></i>招标人/采购人<em class="wticon logarrow"></em></a></li>
+								<li><a><i class="wticon dllog-icon"></i>代理机构<em class="wticon logarrow"></em></a></li>
+								<li><a><i class="wticon tglog-icon"></i>投标人/供应商<em class="wticon logarrow"></em></a></li>
+								<li><a><i class="wticon pblog-icon"></i>评标商<em class="wticon logarrow"></em></a></li>
+							</ul>
+						</section>
+						<section>
+							<h3 class="thirbigtit botline-red"><i class="wticon banghui-icon"></i>中标榜<span class="more-con rt"><a>更多<i class="wticon moredubline-icon"></i></a></span></h3>
+							<ul class="zbbang-list">
+								<li>
+									<div class="guanbang-icon wticon lf"></div>
+									<div class="guanbang-info lf">
+										<h5>平谷鱼子山220KV变电站1</h5>
+										<p>中标人：<span><a class="numcolor-red" href="###">平谷科技公司</a></span></p>
+									</div>	
+								</li>
+								<li>
+									<div class="guanbang-icon wticon lf"></div>
+									<div class="guanbang-info lf">
+										<h5>平谷鱼子山220KV变电站1</h5>
+										<p>中标人：<span><a class="numcolor-red" href="###">平谷科技公司</a></span></p>
+									</div>	
+								</li>
+								<li>
+									<div class="guanbang-icon wticon lf"></div>
+									<div class="guanbang-info lf">
+										<h5>平谷鱼子山220KV变电站1</h5>
+										<p>中标人：<span><a class="numcolor-red" href="###">平谷科技公司</a></span></p>
+									</div>	
+								</li>
+								<li>
+									<div class="guanbang-icon wticon lf"></div>
+									<div class="guanbang-info lf">
+										<h5>平谷鱼子山220KV变电站1</h5>
+										<p>中标人：<span><a class="numcolor-red" href="###">平谷科技公司</a></span></p>
+									</div>	
+								</li>
+								<li>
+									<div class="guanbang-icon wticon lf"></div>
+									<div class="guanbang-info lf">
+										<h5>平谷鱼子山220KV变电站1</h5>
+										<p>中标人：<span><a class="numcolor-red" href="###">平谷科技公司</a></span></p>
+									</div>	
+								</li>
+								<li>
+									<div class="guanbang-icon wticon lf"></div>
+									<div class="guanbang-info lf">
+										<h5>平谷鱼子山220KV变电站1</h5>
+										<p>中标人：<span><a class="numcolor-red" href="###">平谷科技公司</a></span></p>
+									</div>	
+								</li>
+							</ul>
+						</section>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="clearfix"></div>
+		<div class="sec">
+			<div class="w1200">
+				<div class="zbiftit-sec">
+					<h2 class="secbigtit lf"><i class="wticon gxfu-icon"></i>共享服务</h2>
+				</div>
+				<div class="gxfu-sec">
+					<ul class="levlist gxfwinfo-list">
+						<li>
+							<img src="images/first/sec_21.png">
+							<h5>CA互联</h5>
+							<span>一把CA行天下</span>
+						</li>
+						<li>
+							<img src="images/first/sec_23.png">
+							<h5>评标专家库</h5>
+							<span>全国专家库联网抽取</span>
+						</li>
+						<li>
+							<img src="images/first/sec_25.png">
+							<h5>文件制作</h5>
+							<span>招标文件制作</span>
+						</li>
+						<li>
+							<img src="images/first/sec_27.png">
+							<h5>开标大厅</h5>
+							<span>在线预订标准评标室</span>
+						</li>
+						<li>
+							<img src="images/first/sec_29.png">
+							<h5>在线评标</h5>
+							<span>可在线评标</span>
+						</li>
+						<li>
+							<img src="images/first/sec_32.png">
+							<h5>移动通</h5>
+							<span>随时随地查看信息</span>
+						</li>
+						<li>
+							<img src="images/first/sec_34.png">
+							<h5>招采订阅</h5>
+							<span>第一时间跟踪最新信息</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="clearfix"></div>
+		<div class="sec">
+			<div class="w1200">
+				<section class="levad-sec">
+					<img src="images/first/sec_44.png" title=""/>
+				</section>
+			</div>
+		</div>
+		<div class="sec">
+			<div class="w1200">
+				<div class="cgifmain-sec">
+					<div class="cgifcon-sec lf">
+						<div class="lf infolf-capsec">
+							<h4 class="infolf-tit"><i class="wticon cgcap-icon"></i>采购信息</h4>
+							<ul class="infolf-caplist">
+								<li>变频器</li>
+								<li>压力表</li>
+								<li>弯头</li>
+								<li>油封</li>
+								<li>螺栓</li>
+								<li>闸阀</li>
+								<li>截止阀</li>
+								<li>联轴器</li>
+							</ul>
+							<span class="infolf-more"><i class="wticon more-lianicon"></i>查看更多</span>
+						</div>
+						<div class="lf infolf-consec">
+							<ul class="levlist zbifnot-titlist cgifnot-titlist" id="cgxx-tabList">
+								<li class="current"><a>全部</a><i class="botline-bg"></i></li>
+								<li><a>询价</a><i class="botline-bg"></i></li>
+								<li><a>竞价</a><i class="botline-bg"></i></li>
+								<li><a>协议</a><i class="botline-bg"></i></li>
+								<span class="rt more-con"><a>更多<i class="wticon moredubline-icon"></i></a></span>
+							</ul>
+							<ul class="levlist cgif-sectitlist">
+								<li class="current"><a href="###">企业采购</a></li>
+								<li><a href="###">结果公告</a></li>
+							</ul>
+							<div id="caigou-neiRList">
+								<section>
+									<ul class="lf levlist zbprot-lsit cgprot-list">
+										<li class="firl">鄂尔多斯君正树脂项目.</li>
+										<li class="secl">内蒙古自治区</li>
+										<li class="thirl">还剩<em class="numcolor-red">15</em>天</li>
+										<li class="forl">安徽电影集团</li>
+										<li class="fifl"><a class="numcolor-red">我要投标</a></li>
+									</ul>
+									<ul class="lf levlist zbprot-lsit cgprot-list">
+										<li class="firl">鄂尔多斯君正树脂项目.</li>
+										<li class="secl">内蒙古自治区</li>
+										<li class="thirl">还剩<em class="numcolor-red">15</em>天</li>
+										<li class="forl">安徽电影集团</li>
+										<li class="fifl"><a class="numcolor-red">我要投标</a></li>
+									</ul>
+									<ul class="lf levlist zbprot-lsit cgprot-list">
+										<li class="firl">鄂尔多斯君正树脂项目.</li>
+										<li class="secl">内蒙古自治区</li>
+										<li class="thirl">还剩<em class="numcolor-red">15</em>天</li>
+										<li class="forl">安徽电影集团</li>
+										<li class="fifl"><a class="numcolor-red">我要投标</a></li>
+									</ul>
+									<ul class="lf levlist zbprot-lsit cgprot-list">
+										<li class="firl">鄂尔多斯君正树脂项目.</li>
+										<li class="secl">内蒙古自治区</li>
+										<li class="thirl">还剩<em class="numcolor-red">15</em>天</li>
+										<li class="forl">安徽电影集团</li>
+										<li class="fifl"><a class="numcolor-red">我要投标</a></li>
+									</ul>
+									<ul class="lf levlist zbprot-lsit cgprot-list">
+										<li class="firl">鄂尔多斯君正树脂项目.</li>
+										<li class="secl">内蒙古自治区</li>
+										<li class="thirl">还剩<em class="numcolor-red">15</em>天</li>
+										<li class="forl">安徽电影集团</li>
+										<li class="fifl"><a class="numcolor-red">我要投标</a></li>
+									</ul>
+									<ul class="lf levlist zbprot-lsit cgprot-list">
+										<li class="firl">鄂尔多斯君正树脂项目.</li>
+										<li class="secl">内蒙古自治区</li>
+										<li class="thirl">还剩<em class="numcolor-red">15</em>天</li>
+										<li class="forl">安徽电影集团</li>
+										<li class="fifl"><a class="numcolor-red">我要投标</a></li>
+									</ul>
+									<ul class="lf levlist zbprot-lsit cgprot-list">
+										<li class="firl">鄂尔多斯君正树脂项目.</li>
+										<li class="secl">内蒙古自治区</li>
+										<li class="thirl">还剩<em class="numcolor-red">15</em>天</li>
+										<li class="forl">安徽电影集团</li>
+										<li class="fifl"><a class="numcolor-red">我要投标</a></li>
+									</ul>
+									<ul class="lf levlist zbprot-lsit cgprot-list">
+										<li class="firl">鄂尔多斯君正树脂项目.</li>
+										<li class="secl">内蒙古自治区</li>
+										<li class="thirl">还剩<em class="numcolor-red">15</em>天</li>
+										<li class="forl">安徽电影集团</li>
+										<li class="fifl"><a class="numcolor-red">我要投标</a></li>
+									</ul>
+									<ul class="lf levlist zbprot-lsit cgprot-list">
+										<li class="firl">鄂尔多斯君正树脂项目.</li>
+										<li class="secl">内蒙古自治区</li>
+										<li class="thirl">还剩<em class="numcolor-red">15</em>天</li>
+										<li class="forl">安徽电影集团</li>
+										<li class="fifl"><a class="numcolor-red">我要投标</a></li>
+									</ul>
+								</section>
+								<section class="wt-none">
+									<ul class="lf levlist zbprot-lsit cgprot-list">
+										<li class="firl">222项目.</li>
+										<li class="secl">内蒙古自治区</li>
+										<li class="thirl">还剩<em class="numcolor-red">15</em>天</li>
+										<li class="forl">安徽电影集团</li>
+										<li class="fifl"><a class="numcolor-red">我要投标</a></li>
+									</ul>
+								</section>
+								<section class="wt-none">
+									<ul class="lf levlist zbprot-lsit cgprot-list">
+										<li class="firl">333项目.</li>
+										<li class="secl">内蒙古自治区</li>
+										<li class="thirl">还剩<em class="numcolor-red">15</em>天</li>
+										<li class="forl">安徽电影集团</li>
+										<li class="fifl"><a class="numcolor-red">我要投标</a></li>
+									</ul>
+								</section>
+								<section class="wt-none">
+									<ul class="lf levlist zbprot-lsit cgprot-list">
+										<li class="firl">4444项目.</li>
+										<li class="secl">内蒙古自治区</li>
+										<li class="thirl">还剩<em class="numcolor-red">15</em>天</li>
+										<li class="forl">安徽电影集团</li>
+										<li class="fifl"><a class="numcolor-red">我要投标</a></li>
+									</ul>
+								</section>
+							</div>
+						</div>
+					</div>
+					<div class="infoside-sec rt">
+						<h3 class="thirbigtit yzhitit"><i class="wticon yzhiicon"></i>优质供应商<span class="more-con rt"><a>更多<i class="wticon moredubline-icon"></i></a></span></h3>
+						<ul class="yzhiqiye-lsit">
+							<li>
+								<i class="minsquare-icon"></i>
+								<h5>兰州瑞普科技有限公司</h5>
+								<p>所属行业：<span>机械设备</span></p>
+								<p>主营产品：<span>高中低压阀门高中低压阀门高中低压阀门高中低压阀门</span></p>
+							</li>
+							<li>
+								<i class="minsquare-icon"></i>
+								<h5>兰州瑞普科技有限公司</h5>
+								<p>所属行业：<span>机械设备</span></p>
+								<p>主营产品：<span>高中低压阀门高中低压阀门高中低压阀门高中低压阀门</span></p>
+							</li>
+							<li>
+								<i class="minsquare-icon"></i>
+								<h5>兰州瑞普科技有限公司</h5>
+								<p>所属行业：<span>机械设备</span></p>
+								<p>主营产品：<span>高中低压阀门高中低压阀门高中低压阀门高中低压阀门</span></p>
+							</li>
+							<li>
+								<i class="minsquare-icon"></i>
+								<h5>兰州瑞普科技有限公司</h5>
+								<p>所属行业：<span>机械设备</span></p>
+								<p>主营产品：<span>高中低压阀门高中低压阀门高中低压阀门高中低压阀门</span></p>
+							</li>
+							<li>
+								<i class="minsquare-icon"></i>
+								<h5>兰州瑞普科技有限公司</h5>
+								<p>所属行业：<span>机械设备</span></p>
+								<p>主营产品：<span>高中低压阀门高中低压阀门高中低压阀门高中低压阀门</span></p>
+							</li>
+							<li class="bot-none">
+								<i class="minsquare-icon"></i>
+								<h5>兰州瑞普科技有限公司</h5>
+								<p>所属行业：<span>机械设备</span></p>
+								<p>主营产品：<span>高中低压阀门高中低压阀门高中低压阀门高中低压阀门</span></p>
+							</li>
+						</ul>
+					</div>
+				</div>	
+			</div>
+		</div>
+		<div class="sec">
+			<div class="w1200">
+				<section class="levad-sec">
+					<img src="images/first/sec_55.png" title=""/>
+				</section>
+			</div>
+		</div>
+		<div class="sec">
+			<div class="w1200">
+				<div class="single-line"></div>
+				<div class="rzmqmain-sec">
+					<div class="lf infolf-capsec rzmqinfo-capsec">
+						<h4 class="infolf-tit"><i class="wticon rzmicap-icon"></i>入住名企</h4>
+						<span class="infolf-more">查看更多<i class="wticon more-lianicon"></i></span>
+					</div>
+					<div class="rt rzmqinfo-consec">
+						<div class="swiper-container" id="mingqi-swiper">
+						    <div class="swiper-wrapper">
+					    		<div class="swiper-slide">
+					    			<div class="mingqi-boxsec">
+					    				<img src="images/first/mingqi_03.png">
+					    			</div>
+						       	</div>
+						       	<div class="swiper-slide">
+					    			<div class="mingqi-boxsec">
+					    				<img src="images/first/mingqi_03.png">
+					    			</div>
+						       	</div>
+						       	<div class="swiper-slide">
+					    			<div class="mingqi-boxsec">
+					    				<img src="images/first/mingqi_03.png">
+					    			</div>
+						       	</div>
+						       	<div class="swiper-slide">
+					    			<div class="mingqi-boxsec">
+					    				<img src="images/first/mingqi_03.png">
+					    			</div>
+						       	</div>
+						       	<div class="swiper-slide">
+					    			<div class="mingqi-boxsec">
+					    				<img src="images/first/mingqi_03.png">
+					    			</div>
+						       	</div>
+						       	<div class="swiper-slide">
+					    			<div class="mingqi-boxsec">
+					    				<img src="images/first/mingqi_03.png">
+					    			</div>
+						       	</div>
+						       	<div class="swiper-slide">
+					    			<div class="mingqi-boxsec">
+					    				<img src="images/first/mingqi_03.png">
+					    			</div>
+						       	</div>
+						       	<div class="swiper-slide">
+					    			<div class="mingqi-boxsec">
+					    				<img src="images/first/mingqi_03.png">
+					    			</div>
+						       	</div>
+						       	<div class="swiper-slide">
+					    			<div class="mingqi-boxsec">
+					    				<img src="images/first/mingqi_03.png">
+					    			</div>
+						       	</div>
+						       	<div class="swiper-slide">
+					    			<div class="mingqi-boxsec">
+					    				<img src="images/first/mingqi_03.png">
+					    			</div>
+						       	</div>
+						       	<div class="swiper-slide">
+					    			<div class="mingqi-boxsec">
+					    				<img src="images/first/mingqi_03.png">
+					    			</div>
+						       	</div>
+						       	<div class="swiper-slide">
+					    			<div class="mingqi-boxsec">
+					    				<img src="images/first/mingqi_03.png">
+					    			</div>
+						       	</div>
+						       	<div class="swiper-slide">
+					    			<div class="mingqi-boxsec">
+					    				<img src="images/first/mingqi_03.png">
+					    			</div>
+						       	</div>
+						       	<div class="swiper-slide">
+					    			<div class="mingqi-boxsec">
+					    				<img src="images/first/mingqi_03.png">
+					    			</div>
+						       	</div>
+						       	<div class="swiper-slide">
+					    			<div class="mingqi-boxsec">
+					    				<img src="images/first/mingqi_03.png">
+					    			</div>
+						       	</div>
+						       	<div class="swiper-slide">
+					    			<div class="mingqi-boxsec">
+					    				<img src="images/first/mingqi_03.png">
+					    			</div>
+						       	</div>
+						       	<div class="swiper-slide">
+					    			<div class="mingqi-boxsec">
+					    				<img src="images/first/mingqi_03.png">
+					    			</div>
+						       	</div>
+						       	<div class="swiper-slide">
+					    			<div class="mingqi-boxsec">
+					    				<img src="images/first/mingqi_03.png">
+					    			</div>
+						       	</div>
+						       	<div class="swiper-slide">
+					    			<div class="mingqi-boxsec">
+					    				<img src="images/first/mingqi_03.png">
+					    			</div>
+						       	</div>
+						    </div>
+						    <div class="swiper-button-prev"></div>
+						    <div class="swiper-button-next"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="clearfix"></div>
+		<div class="sec">
+			<div class="w1200">
+				<div class="zbiftit-sec">
+					<h2 class="secbigtit lf"><i class="wticon hyzx-icon"></i>行业资讯</h2>
+					<div class="rt">
+						<div class="hyzx-searchsec">
+							<i class="wticon blackbig-glassicon lf"></i>
+							<input type="text" placeholder="请输入关键词" class="search-inp lf"/>
+							<button type="button" class="search-btn rt">搜索</button>
+						</div>
+					</div>
+				</div>
+				<div class="hyzx-sec">
+					<div class="lf hyzx-lfsec">
+						<div class="swiper-container" id="hyzx-swiper">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<dl class="hyzx-imglist">
+										<dt>
+											<img src="images/first/infosec01_25.png"/>
+											<p>统计局发布7月份能源生产情况</p>
+										</dt>
+										<dd>
+											<img src="images/first/infosec01_31.png"/>
+											<p>统计局发布7月份能源生产情况</p>
+										</dd>
+										<dd>
+											<img src="images/first/infosec01_31.png"/>
+											<p>统计局发布7月份能源生产情况</p>
+										</dd>
+										<dd>
+											<img src="images/first/infosec01_31.png"/>
+											<p>统计局发布7月份能源生产情况</p>
+										</dd>
+										<dd>
+											<img src="images/first/infosec01_31.png"/>
+											<p>统计局发布7月份能源生产情况</p>
+										</dd>
+									</dl>
+								</div>
+								<div class="swiper-slide">
+									<dl class="hyzx-imglist">
+										<dt>
+											<img src="images/first/infosec01_25.png"/>
+											<p>统计局发布7月份能源生产情况</p>
+										</dt>
+										<dd>
+											<img src="images/first/infosec01_31.png"/>
+											<p>统计局发布7月份能源生产情况</p>
+										</dd>
+										<dd>
+											<img src="images/first/infosec01_31.png"/>
+											<p>统计局发布7月份能源生产情况</p>
+										</dd>
+										<dd>
+											<img src="images/first/infosec01_31.png"/>
+											<p>统计局发布7月份能源生产情况</p>
+										</dd>
+										<dd>
+											<img src="images/first/infosec01_31.png"/>
+											<p>统计局发布7月份能源生产情况</p>
+										</dd>
+									</dl>
+								</div>
+							</div>
+							<div class="swiper-button-prev"></div>
+				    		<div class="swiper-button-next"></div>
+						</div>
+					</div>
+					<div class="rt hyzx-infosec">
+						<h3 class="thirbigtit hyzx-bigtit">专家观点<span class="more-con rt"><a>更多<i class="wticon moredubline-icon"></i></a></span></h3>
+						<ul class="hyzx-textlist">
+							<li>
+								<img src="images/first/infosec01_28.png"/>
+								<div>
+									<h5>贵州构建“互联网+公共资源...</h5>
+									<p>公共资源交易平台整合包括实体平台整合和交易系统平台整合，各地的平台整合情况不同。《政府采购信...</p>
+								</div>
+							</li>
+							<li>
+								<img src="images/first/infosec01_28.png"/>
+								<div>
+									<h5>贵州构建“互联网+公共资源...</h5>
+									<p>公共资源交易平台整合包括实体平台整合和交易系统平台整合，各地的平台整合情况不同。《政府采购信...</p>
+								</div>
+							</li>
+							<li>
+								<img src="images/first/infosec01_28.png"/>
+								<div>
+									<h5>贵州构建“互联网+公共资源...</h5>
+									<p>公共资源交易平台整合包括实体平台整合和交易系统平台整合，各地的平台整合情况不同。《政府采购信...</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>	
+			</div>
+		</div>
+		<div class="clearfix"></div>
+		<div class="sec">
+			<div class="w1200">
+				<div class="zbiftit-sec">
+					<h2 class="secbigtit lf"><i class="wticon yqlj-icon"></i>友情链接</h2>
+				</div>
+				<ul class="yqlj-list levlist">
+					<li><a href="###"><img src="images/first/links5_03.png" title="山西国际招标公司"/></a></li>
+					<li><a href="###"><img src="images/first/links5_03.png" title="山西国际招标公司"/></a></li>
+					<li><a href="###"><img src="images/first/links5_03.png" title="山西国际招标公司"/></a></li>
+					<li><a href="###"><img src="images/first/links5_03.png" title="山西国际招标公司"/></a></li>
+					<li><a href="###"><img src="images/first/links5_03.png" title="山西国际招标公司"/></a></li>
+					<li><a href="###"><img src="images/first/links5_03.png" title="山西国际招标公司"/></a></li>
+					<li><a href="###"><img src="images/first/links5_03.png" title="山西国际招标公司"/></a></li>
+					<li><a href="###"><img src="images/first/links5_03.png" title="山西国际招标公司"/></a></li>
+				</ul>
+			</div>
+		</div>	
+		<footer>
+			<div class="w1200">
+				<address class="lf footaddress">
+					<h2 title="山西伟拓电子招标投标综合交易信息网">
+						山西伟拓电子招标投标综合交易信息网
+					</h2>
+					<p class="phone-bg">400-869-0366</p>
+					<p class="pos-bg">山西省太原市</p>
+					<p>长治路103号阳光国际商务中心A座12层</p>
+				</address>
+				<div class="rt">
+					<ul class="foot-menulist">
+						<li>
+							<h4><img src="images/first/infosec01_43.png"></h4>
+							<span><a>关于我们</a></span>
+							<span><a>平台介绍</a></span>
+							<span><a>联系我们</a></span>
+						</li>
+						<li>
+							<h4><img src="images/first/infosec01_45.png"></h4>
+							<span><a>评标操作流程</a></span>
+							<span><a>评标人指南</a></span>
+							<span><a>CA办理流程</a></span>
+						</li>
+						<li>
+							<h4><img src="images/first/infosec01_48.png"></h4>
+							<span><a>帮助中心</a></span>
+							<span><a>相关知识</a></span>
+							<span><a>常见问题</a></span>
+						</li>
+						<li class="botrt-none weixin-sec">
+							<img src="images/first/infosec01_51.png">
+							<span>扫码关注微信</span>
+						</li>
+					</ul>
+				</div>
+				<div class="clearfix"></div>
+				<p class="foot-beian">晋ICP备14009202号</p>
+			</div>
+		</footer>
+		<script> 
+		   (function() {
+			     if (! 
+			     /*@cc_on!@*/
+			     0) return;
+			     var e = "abbr, article, aside, audio, canvas, datalist, details, dialog, eventsource, figure, footer, header, hgroup, mark, menu, meter, nav, output, progress, section, time, video".split(', ');
+			     var i= e.length;
+			     while (i--){
+			         document.createElement(e[i])
+			     } 
+			})()
+		</script>
+		<script type="text/javascript">
+			$(function(){
+				$("#search-tit").on("click",function(){
+					$("#search-tabtit").slideToggle();
+				})
+				$("#search-tabtit li").on("click",function(){
+					var curmsg = $(this).find("a").text();
+					$("#search-tit span").text(curmsg);
+					$("#search-tabtit").slideUp();
+				})
+				$("#zbxx-tabList li").on("click",function(){
+					var curIndex = $(this).index();
+					$("#zbxx-tabList li").removeClass("current");
+					$(this).addClass("current");
+					$("#zbxx-neiRList section").hide();
+					$("#zbxx-neiRList section").eq(curIndex).show();
+				})
+				$("#nav-menulist li").on("click",function(){
+					var curIndex = $(this).index();
+					$("#nav-menulist li").removeClass("current");
+					$(this).addClass("current");
+				})
+				$("#cgxx-tabList li").on("click",function(){
+					var curIndex = $(this).index();
+					$("#cgxx-tabList li").removeClass("current");
+					$(this).addClass("current");
+					$("#caigou-neiRList section").hide();
+					$("#caigou-neiRList section").eq(curIndex).show();
+				})
+				 var mySwiper = new Swiper ('#bannner-swiper', {
+				  	direction: 'horizontal',
+				    loop: true,
+				    autoplay : 2000,
+				    pagination: '.swiper-pagination',
+				    paginationClickable :true,
+				    paginationHide :true,
+				    nextButton: '.swiper-button-next',
+   					prevButton: '.swiper-button-prev',
+				    keyboardControl : true,
+				 })
+				 $('.arrow-left').on('click', function(e){
+				    e.preventDefault()
+				    mySwiper.swipePrev()
+				  })
+				  $('.arrow-right').on('click', function(e){
+				    e.preventDefault()
+				    mySwiper.swipeNext()
+				  })
+				 mouseTabSwiper("bannner-swiper",mySwiper);
+					var mingqiSwiper = new Swiper ('#mingqi-swiper', {
+				    direction: 'horizontal',
+				    autoplay : 3000,
+				    slidesPerView : 4,
+				    spaceBetween : 5,
+				    slidesPerColumn : 3,
+				    autoplayDisableOnInteraction : false,
+				    nextButton: '.swiper-button-next',
+				    prevButton: '.swiper-button-prev',
+				    keyboardControl : true,
+				 })
+				  mouseTabSwiper("mingqi-swiper",mingqiSwiper);
+				 var hyzxSwiper = new Swiper ('#hyzx-swiper', {
+				    direction: 'horizontal',
+				    loop: true,
+				    autoplay : 3000,
+				    autoplayDisableOnInteraction : false,
+				    nextButton: '.swiper-button-next',
+				    prevButton: '.swiper-button-prev',
+				    keyboardControl : true,
+				  })
+				  mouseTabSwiper("hyzx-swiper",hyzxSwiper);
+				function  mouseTabSwiper(eleId,swiperName){
+				 	$("#" + eleId).mouseenter(function () {//滑过悬停
+					    swiperName.stopAutoplay();//mySwiper 为上面你swiper实例化的名称
+					}).mouseleave(function(){//离开开启
+					    swiperName.startAutoplay();
+					});
+				}
+				 
+			})
+		</script>
+	</body>
+</html>
